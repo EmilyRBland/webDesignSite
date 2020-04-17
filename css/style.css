@@ -1,0 +1,276 @@
+
+html {
+  marign: 0;
+  font-size: 100%;
+  font-family: "B612 Mono", monospace;
+}
+
+body {
+  margin: 2% 5%;
+}
+
+header {
+  text-align: center;
+  font-size: 6vmax;
+  font-family: "Amatic SC";
+  margin-bottom: 1%;
+}
+
+.section-heading {
+  font-family: "Amatic SC";
+  font-size: 3vmax;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+section {
+  border: 1px dotted rgb(0, 0, 0);
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+/* Colours Section */
+
+.colour-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.colour-container div {
+  margin: 2%;
+  width: 20%;
+  height: 10.5vh;
+  font-size: 1.5vmax;
+  line-height: 1.4;
+}
+
+.Blood-Red {
+  color: rgb(255, 255, 255);
+  background-color: rgb(176, 11, 11);
+  padding: 2%;
+}
+
+.Swamp-Green {
+  color: rgb(255, 255, 255);
+  background-color: rgb(36, 92, 44);
+  padding: 2%;
+}
+
+.Burnt-Orange {
+  color: rgb(255, 255, 255);
+  background-color: rgb(219, 104, 2);
+  padding: 2%;
+}
+
+.Parma-Violet {
+  color: rgb(255, 255, 255);
+  background-color: rgb(200, 174, 212);
+  padding: 2%;
+}
+
+.Blue-Skies {
+  color: rgb(255, 255, 255);
+  background-color: rgb(212, 215, 255);
+  padding: 2%;
+}
+
+.Pink-Frosting {
+  color: rgb(176, 176, 174);
+  background-color: rgb(255, 219, 244);
+  padding: 2%;
+}
+
+/* Fonts Section */
+
+.font-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.font-container div {
+  margin: 3%;
+}
+
+.Amatic-SC {
+  font-family: "Amatic SC";
+  font-size: 3vmax;
+}
+
+.Amatic-SC-regular {
+  font-weight: 400;
+  font-size: 2vmax;
+}
+
+.Amatic-SC-bold {
+  font-weight: 700;
+  font-size: 2vmax;
+}
+
+.Anonymous-Pro {
+  font-family: "Anonymous Pro";
+  font-size: 3vmax;
+}
+
+.Anonymous-Pro-regular {
+  font-weight: 400;
+  font-size: 2vmax;
+}
+
+.Anonymous-Pro-regular-italic {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 2vmax;
+}
+
+.Anonymous-Pro-bold {
+  font-weight: 700;
+  font-size: 2vmax;
+}
+
+.B612-Mono {
+  font-family: "B612 Mono";
+  font-size: 3vmax;
+}
+
+.B612-Mono-regular {
+  font-weight: 400;
+  font-size: 2vmax;
+}
+
+.B612-Mono-regular-italic {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 2vmax;
+}
+
+.B612-Mono-bold {
+  font-weight: 700;
+  font-size: 2vmax;
+}
+
+/* Text Styles section */
+
+.text-styles-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.text-styles-container div {
+  margin: 3%;
+  width: 40%;
+}
+
+.list {
+  font-family: "B612 Mono";
+  font-size: 1vmax;
+  font-weight: 300;
+  text-align: left;
+  letter-spacing: 0em;
+  width: 100%;
+}
+
+ul {
+  width: 100%;
+}
+
+.Main-Heading {
+  font-size: 6vmax;
+  font-family: "Amatic SC";
+  background-color: rgba(0, 0, 0, 0.3);
+  color: rgb(255, 255, 255);
+  padding-top: 1%;
+}
+
+.Sub-Heading {
+  font-family: "Amatic SC";
+  font-size: 3vmax;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: rgb(255, 255, 255);
+  padding-top: 1%;
+}
+
+.Paragraph {
+  font-family: "B612 Mono";
+  font-size: 1vmax;
+  font-weight: 400;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: rgb(255, 255, 255);
+  padding-top: 1%;
+}
+
+/* Button section */
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button-container div {
+  margin: 3%;
+  width: 30%;
+}
+
+.b1 {
+  width: 30%;
+  height: 2.2vmax;
+  font-family: "B612 Mono";
+  font-size: 1vmax;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: none;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.b1:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.b2 {
+  width: 45%;
+  height: 4vmax;
+  font-family: "B612 Mono";
+  font-size: 2vmax;
+  font-weight: 700;
+  background-color: rgb(255, 219, 244);
+  color: rgb(255, 255, 255);
+  border: 5px dotted rgb(212, 215, 255);
+  border-radius: 20px;
+  box-shadow: 0 8px 16px 0 rgba(212, 215, 255, 0.3), 0 6px 20px 0 rgba(212, 215, 255, 0.2);
+}
+
+.b2:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 219, 244);
+}
+
+.b3 {
+  width: 50%;
+  height: 4vmax;
+  font-family: "B612 Mono";
+  font-size: 2vmax;
+  font-weight: 700;
+  background-color: rgb(219, 104, 2);
+  color: rgb(255, 255, 255);
+  border: 3px solid rgb(219, 104, 2);
+  border-radius: 20px;
+  box-shadow: 0 8px 16px 0 rgba(219, 104, 2, 0.2), 0 6px 20px 0 rgba(219, 104, 2, 0.19);
+}
+
+.b3:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  color: rgb(219, 104, 2);
+}
+
